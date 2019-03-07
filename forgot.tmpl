@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>Forgot Password</title>
+</head>
+<body>
+<div id="error">{{ . }}</div>
+<form method="POST" action="/forgot">
+<input type="text" name="username" id="username">
+<input type="email" name="email" id="email">
+<input type="submit">
+</body>
+</html>

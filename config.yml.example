@@ -1,0 +1,10 @@
+---
+domain: adland.example.tld
+bind_username: cn=UserAccount,OU=SomeOU,OU=ad,dc=adland,dc=example,dc=tld
+bind_password: PasswordInPlainTextIsBestGuys
+search_cn: OU=ad,dc=adland,dc=example,dc=tld
+reset_priv_group: cn=PrivedGroup,OU=Groups,OU=ad,dc=adland,dc=example,dc=tld
+reset_user_group: cn=ResetTargetGroup,OU=Groups,OU=ad,dc=adland,dc=example,dc=tld
+self_reset: true
+smtp_server: smtp.example.tld
+log_file: log.txt

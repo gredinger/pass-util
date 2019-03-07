@@ -1,0 +1,20 @@
+To: {{ .Mail }}
+Subject: Password Reset
+
+Hi {{ .FirstName }},
+
+You've requested to reset your password. Please click the link below to be taken to the password reset page.
+
+https://reset.example.tld/forgot?token={{.Token}}
+
+If you did not request this password reset, please click this link below to alert administration someone's absuing the reset system, so they can be dealt with.
+
+https://reset.example.tld/forgot?token={{.AbuseToken}}
+
+Probably lashings, that seems like the best punishment for people abusing computers.
+
+
+Both these links expire in 24 hours, so if you clicked this stuff yesterday, you'll have to resubmit the web form.
+
+Thanks,
+Your Friendly Local IT People
